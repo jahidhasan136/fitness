@@ -15,7 +15,7 @@ export default function Home() {
       <Exercises></Exercises>
       <Workout></Workout>
       <TrainingCenter></TrainingCenter>
-      {/* <PeopleSays></PeopleSays> */}
+      <PeopleSays></PeopleSays>
       <Footer></Footer>
     </>
   )
