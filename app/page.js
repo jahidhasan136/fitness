@@ -14,9 +14,9 @@ export default function Home() {
       <Banner></Banner>
       <Exercises></Exercises>
       <Workout></Workout>
-      {/* <TrainingCenter></TrainingCenter>
-      <PeopleSays></PeopleSays>
-      <Footer></Footer> */}
+      <TrainingCenter></TrainingCenter>
+      {/* <PeopleSays></PeopleSays> */}
+      <Footer></Footer>
     </>
   )
 }

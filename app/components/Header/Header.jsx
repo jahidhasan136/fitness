@@ -25,7 +25,7 @@ const Header = () => {
             <div className='relative'>
                 <img className='absolute right-48' src={bg_right.src} alt="" />
                 <div className='container'>
-                    <div className='flex justify-between items-center py-11'>
+                    <div className='flex justify-between items-center py-10'>
                         <img className='z-10' src={logo.src} alt="" />
                         <div className='md:flex gap-10 text-lg z-10 hidden'>
                             <h3>Home</h3>

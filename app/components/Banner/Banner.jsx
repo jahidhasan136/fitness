@@ -11,8 +11,8 @@ const Banner = () => {
         <div className='container'>
             <div className='md:flex justify-between'>
                 <div className='md:mt-[60px] lg:mt-[109px]'>
-                    <div className='relative mb-[63px]'>
-                        <h1 className='text-[40px] md:text-[40px] lg:text-6xl font-bold capitalize lg:leading-[70px]'>Come & make <br /> your dream body <br /> with GYMC</h1>
+                    <div className='relative mb-[32px] md:mb-[63px]'>
+                        <h1 className='text-[40px] md:text-[40px] lg:text-6xl font-bold capitalize leading-[50px] lg:leading-[70px]'>Come & make <br /> your dream body <br /> with GYMC</h1>
                         <img className='absolute -bottom-10 right-14 lg:right-36' src={underline.src} alt="" />
                         <img className='absolute right-0 lg:right-10 xl:right-[70px] bottom-4' src={emoji.src} alt="" />
                     </div>
@@ -33,7 +33,7 @@ const Banner = () => {
                 </div>
                 
                 <div className='grid justify-center md:hidden items-center gap-[30px] mb-8'>
-                        <button className='primary-button text-lg z-10'>Get Started</button>
+                        <button className='primary-button text-lg z-10 shadow-2xl shadow-[#f04d2933]'>Get Started</button>
                         <div className='flex items-center gap-[15px]'>
                             <img className='bg-white p-[20px] rounded-full z-10 shadow-2xl shadow-[#f04d2933]' src={videoIcon.src} alt="" />
                             <h3 className='text-lg z-10 font-medium'>Watch Video</h3>
