@@ -13,8 +13,8 @@ export default function Home() {
       <Header></Header>
       <Banner></Banner>
       <Exercises></Exercises>
-      {/* <Workout></Workout>
-      <TrainingCenter></TrainingCenter>
+      <Workout></Workout>
+      {/* <TrainingCenter></TrainingCenter>
       <PeopleSays></PeopleSays>
       <Footer></Footer> */}
     </>
