@@ -10,7 +10,7 @@ const Exercises = () => {
                 <h2 className="text-[28px] font-semibold">Popular Exercises</h2>
             </div>
             <div className='lg:flex justify-between md:mt-8'>
-                <div className='grid grid-cols-2'>
+                <div className='grid grid-cols-2 md:gap-[30px]'>
                     <div className='flex items-center gap-[23px] bg-[#FFFFFF] py-[34px] px-8 rounded-lg'>
                         <img className='bg-[#F2E8FF] rounded-full p-3' src={running.src} alt="" />
                         <div>
@@ -26,7 +26,7 @@ const Exercises = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex items-center gap-[23px] bg-[#FFFFFF] lg:py-[34px] px-8 rounded-lg'>
+                <div className='flex items-center gap-[23px] bg-[#FFFFFF] py-[34px] px-8 rounded-lg'>
                     <img className='bg-[#FFEDE8] rounded-full p-3' src={lifting.src} alt="" />
                     <div>
                         <h5 className="lg:text-xl font-bold">Lifting</h5>

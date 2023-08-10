@@ -9,7 +9,7 @@ import Footer from './components/Footer/Footer'
 
 export default function Home() {
   return (
-    <>
+    <div className='bg-gradient-to-r from-[#FFF5F2] to-[#FBFAF8]'>
       <Header></Header>
       <Banner></Banner>
       <Exercises></Exercises>
@@ -17,6 +17,6 @@ export default function Home() {
       <TrainingCenter></TrainingCenter>
       <PeopleSays></PeopleSays>
       <Footer></Footer>
-    </>
+    </div>
   )
 }
