@@ -13,12 +13,12 @@ const Workout = () => {
             <img className='absolute left-0' src={bgLeft.src} alt="" />
             <img className='absolute right-0' src={bgRightTop.src} alt="" />
             <img className='absolute right-0 bottom-0' src={bgRightBottom.src} alt="" />
-            <div className='container flex justify-between items-center'>
+            <div className='container md:flex grid justify-center md:justify-between items-center'>
                 <div className='relative '>
                     <img className='w-[340px] lg:w-[508px]' src={image.src} alt="" />
                     <img className=' absolute top-28 lg:-right-36 bg-white px-[17px] py-[15px] rounded-[15px] shadow-2xl shadow-[#c31b1b1a]' src={journy.src} alt="" />
                 </div>
-                <div className='mt-16 lg:mt-28'>
+                <div className='md:mt-16 lg:mt-28'>
                     <div className='relative'>
                         <h1 className='text-[30px] lg:text-[40px] 2xl:text-[50px] font-bold mb-[55px]'>
                             Workout Program <br /> Made For You
