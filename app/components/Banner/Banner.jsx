@@ -27,7 +27,7 @@ const Banner = () => {
                 </div>
                 <div className='relative'>
                     <img className='hidden md:flex' src={banner.src} alt="" />
-                    <img className='mx-auto' src={bannerMobile.src} alt="" />
+                    <img className='mx-auto md:hidden' src={bannerMobile.src} alt="" />
                     <img className='hidden md:flex absolute top-20 right-2 bg-[#FFFFFF] py-3 px-2 rounded-[14px]' src={dumbble.src} alt="" />
                     <img className='absolute top-[47%] left-5' src={heartRate.src} alt="" />
                 </div>
