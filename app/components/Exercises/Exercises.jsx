@@ -12,9 +12,9 @@ const Exercises = () => {
                     <h2 className="text-[28px] font-semibold">Popular Exercises</h2>
                 </div>
             </RevealAnimation>
-            <div className='lg:flex justify-between md:mt-8'>
-                <div className='grid grid-cols-2 md:gap-[30px]'>
-                    <div className='flex items-center gap-[23px] bg-[#FFFFFF] py-[34px] px-8 rounded-lg'>
+            <div className='lg:flex justify-center md:justify-between grid gap-3 md:mt-8'>
+                <div className='grid sm:grid-cols-2 gap-3 md:gap-[30px]'>
+                    <div className='flex items-center gap-[23px] bg-[#FFFFFF] py-5 px-5 md:py-[34px] md:px-8 rounded-lg'>
                         <img className='bg-[#F2E8FF] rounded-full p-3' src={running.src} alt="" />
                         <RevealAnimation>
                             <div>
@@ -23,7 +23,7 @@ const Exercises = () => {
                             </div>
                         </RevealAnimation>
                     </div>
-                    <div className='flex items-center gap-[23px] bg-[#FFFFFF] py-[34px] px-8 rounded-lg'>
+                    <div className='flex items-center gap-[23px] bg-[#FFFFFF] py-5 px-5 md:py-[34px] md:px-8 rounded-lg'>
                         <img className='bg-[#E8FFF2] rounded-full p-3' src={yoga.src} alt="" />
                         <RevealAnimation>
                             <div>
@@ -33,7 +33,7 @@ const Exercises = () => {
                         </RevealAnimation>
                     </div>
                 </div>
-                <div className='flex items-center gap-[23px] bg-[#FFFFFF] py-[34px] px-8 rounded-lg'>
+                <div className='flex items-center gap-[23px] bg-[#FFFFFF] py-5 px-5 md:py-[34px] md:px-8 rounded-lg'>
                     <img className='bg-[#FFEDE8] rounded-full p-3' src={lifting.src} alt="" />
                     <RevealAnimation>
                         <div>

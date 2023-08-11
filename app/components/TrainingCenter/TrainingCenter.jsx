@@ -9,11 +9,9 @@ const TrainingCenter = () => {
         <div className="mt-5 relative">
             <img className='absolute -top-32' src={bgLeft.src} alt="" />
             <div className="container">
-                <RevealAnimation>
-                    <div>
-                        <h1 className="text-[30px] lg:text-[40px] 2xl:text-[50px] font-bold text-center">The greatest fitness <br /> <span className="bg-gradient-to-r from-[#FD8A5A] to-[#F44C46] text-transparent bg-clip-text">training center</span></h1>
-                    </div>
-                </RevealAnimation>
+                <div>
+                    <h1 className="text-[30px] lg:text-[40px] 2xl:text-[50px] font-bold text-center">The greatest fitness <br /> <span className="bg-gradient-to-r from-[#FD8A5A] to-[#F44C46] text-transparent bg-clip-text">training center</span></h1>
+                </div>
                 <div className='grid md:grid-cols-2 gap-[31px] lg:grid-cols-3 items-center mt-10 xl:mt-[50px]'>
                     <div className='bg-white p-5 xl:p-[35px] rounded-[30px] shadow-2xl shadow-[#13277114] z-10'>
                         <img className='mb-[47px] bg-[#EDF5FF] py-[27px] px-[33px] rounded-[20px]' src={equipment.src} alt="" />
