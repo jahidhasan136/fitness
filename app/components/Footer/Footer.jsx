@@ -56,13 +56,13 @@ const Footer = () => {
                     <div className='mt-5 md:mt-0'>
                         <h3 className='text-lg font-medium mb-[15px] md:mb-[30px] md:text-center'>Our Social Media</h3>
                         <div className='flex items-center gap-[15px] md:justify-center z-20'>
-                            <div className='bg-white p-[9px] rounded-full cursor-pointer z-10'>
+                            <div className='bg-white hover:bg-white/90 transition-all p-[9px] rounded-full cursor-pointer z-10'>
                                 <BiLogoTwitter className='text-[26px] text-black'></BiLogoTwitter>
                             </div>
-                            <div className='bg-white p-[9px] rounded-full cursor-pointer z-10'>
+                            <div className='bg-white hover:bg-white/90 transition-all p-[9px] rounded-full cursor-pointer z-10'>
                                 <AiFillYoutube className='text-[26px] text-[#FF592C]'></AiFillYoutube>
                             </div>
-                            <div className='bg-white p-[9px] rounded-full cursor-pointer z-10'>
+                            <div className='bg-white hover:bg-white/90 transition-all p-[9px] rounded-full cursor-pointer z-10'>
                                 <AiFillLinkedin className='text-[26px] text-black'></AiFillLinkedin>
                             </div>
                         </div>
