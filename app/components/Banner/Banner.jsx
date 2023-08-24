@@ -1,3 +1,5 @@
+'use client'
+
 import videoIcon from './images/video_icon.png'
 import banner from './images/banner.png'
 import bannerMobile from './images/banner_mobile.png'
@@ -6,8 +8,21 @@ import heartRate from './images/heart_rate.png'
 import underline from './images/underline.png'
 import emoji from './images/emoji.png'
 import RevealsAnimation from '../RevealAnimation/RevealAnimation'
+import { useState } from 'react'
+import Modal from '../Modal/Modal'
 
 const Banner = () => {
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => {
+        setIsModalOpen(true);
+    }
+
+    const closeModal = () => {
+        setIsModalOpen(false)
+    }
+
     return (
         <div className='container'>
             <div className='md:flex justify-between'>
@@ -22,9 +37,10 @@ const Banner = () => {
                     <div className='hidden md:flex items-center gap-4 lg:gap-[30px] mb-8'>
                         <button className='primary-button text-xs lg:text-base z-10'>Get Started</button>
                         <div className='flex items-center gap-[15px]'>
-                            <div className='bg-white p-[20px] rounded-full z-10 shadow-2xl shadow-[#f04d2933] cursor-pointer border border-red-100'>
+                            <div onClick={openModal} className='bg-white p-[20px] rounded-full z-10 shadow-2xl shadow-[#f04d2933] cursor-pointer border border-red-100'>
                                 <img className='' src={videoIcon.src} alt="" />
                             </div>
+                                <Modal isOpen={isModalOpen} onClose={closeModal}></Modal>
                             <h3 className='hidden lg:block lg:text-lg z-10'>Watch Video</h3>
                         </div>
                     </div>
@@ -39,10 +55,14 @@ const Banner = () => {
                     <img className='absolute top-[47%] left-5' src={heartRate.src} alt="" />
                 </div>
 
+            {/* Mobile Device */}
+                
                 <div className='grid justify-center md:hidden items-center gap-[30px] mb-8'>
                     <button className='primary-button text-lg z-10 shadow-2xl shadow-[#f04d2933]'>Get Started</button>
                     <div className='flex items-center gap-[15px]'>
-                        <img className='bg-white p-[20px] rounded-full z-10 shadow-2xl shadow-[#f04d2933]' src={videoIcon.src} alt="" />
+                        <div className='bg-white p-[20px] rounded-full z-10 shadow-2xl shadow-[#f04d2933] cursor-pointer border border-red-100'>
+                        <img src={videoIcon.src} alt="" />
+                        </div>
                         <h3 className='text-lg z-10 font-medium'>Watch Video</h3>
                     </div>
                 </div>
