@@ -18,7 +18,7 @@ const Header = () => {
 
     const handleClose = (e) => {
         setIsActive(false);
-        
+
     }
     return (
         <>
@@ -26,13 +26,15 @@ const Header = () => {
                 <img className='absolute right-48' src={bg_right.src} alt="" />
                 <div className='container'>
                     <div className='flex justify-between items-center py-10'>
-                        <img className='z-10' src={logo.src} alt="" />
+                        <Link href="#">
+                            <img className='z-10' src={logo.src} alt="" />
+                        </Link>
                         <div className='md:flex gap-10 text-lg z-10 hidden'>
-                            <h3>Home</h3>
-                            <h3>About</h3>
-                            <h3>Features</h3>
-                            <h3>Service</h3>
-                            <h3>Pricing</h3>
+                            <Link href="#" className='hover:text-[#F6564A] transition-all'>Home</Link>
+                            <Link href="#" className='hover:text-[#F6564A] transition-all'>About</Link>
+                            <Link href="#" className='hover:text-[#F6564A] transition-all'>Features</Link>
+                            <Link href="#" className='hover:text-[#F6564A] transition-all'>Service</Link>
+                            <Link href="#" className='hover:text-[#F6564A] transition-all'>Pricing</Link>
                         </div>
                         <div className='md:flex gap-6 items-center hidden'>
                             <img className='cursor-pointer z-10' src={bell.src} alt="" />
@@ -55,11 +57,11 @@ const Header = () => {
                     </Link>
                 </div>
                 <ul className="space-y-[15px] text-[16px] font-medium text-white mb-[20px]">
-                    <li><Link href='/' className='transition hover:text-pink'>Home</Link></li>
-                    <li><Link href='/' className='transition hover:text-pink'>About</Link></li>
-                    <li><Link href='/' className='transition hover:text-pink'>Features</Link></li>
-                    <li><Link href='/' className='transition hover:text-pink'>Service</Link></li>
-                    <li><Link href='/' className='transition hover:text-pink'>Pricing</Link></li>
+                    <li><Link href='/' className='transition hover:text-[#F6564A]'>Home</Link></li>
+                    <li><Link href='/' className='transition hover:text-[#F6564A]'>About</Link></li>
+                    <li><Link href='/' className='transition hover:text-[#F6564A]'>Features</Link></li>
+                    <li><Link href='/' className='transition hover:text-[#F6564A]'>Service</Link></li>
+                    <li><Link href='/' className='transition hover:text-[#F6564A]'>Pricing</Link></li>
                 </ul>
             </div>
         </>
