@@ -19,11 +19,11 @@ const Banner = () => {
                             <img className='absolute right-0 lg:right-10 xl:right-[70px] bottom-4' src={emoji.src} alt="" />
                         </div>
                     </RevealsAnimation>
-                    <div className='hidden md:flex items-center gap-[30px] mb-8'>
-                            <button className='primary-button text-xs md:text-base z-10'>Get Started</button>
+                    <div className='hidden md:flex items-center gap-4 lg:gap-[30px] mb-8'>
+                            <button className='primary-button text-xs lg:text-base z-10'>Get Started</button>
                             <div className='flex items-center gap-[15px]'>
                                 <img className='bg-white p-[20px] rounded-full z-10 shadow-2xl shadow-[#f04d2933]' src={videoIcon.src} alt="" />
-                                <h3 className='text-xs md:text-base lg:text-lg z-10'>Watch Video</h3>
+                                <h3 className='hidden lg:block lg:text-lg z-10'>Watch Video</h3>
                             </div>
                     </div>
                     <RevealsAnimation>

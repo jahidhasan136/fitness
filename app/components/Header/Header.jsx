@@ -35,8 +35,8 @@ const Header = () => {
                             <h3>Pricing</h3>
                         </div>
                         <div className='md:flex gap-6 items-center hidden'>
-                            <img src={bell.src} alt="" />
-                            <img src={profile.src} alt="" />
+                            <img className='cursor-pointer z-10' src={bell.src} alt="" />
+                            <img className='cursor-pointer z-10' src={profile.src} alt="" />
                         </div>
                         <div className='md:hidden' onClick={handleClick}>
                             <FaBars className='text-[26px]'></FaBars>

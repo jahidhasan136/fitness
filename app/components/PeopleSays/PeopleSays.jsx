@@ -9,7 +9,7 @@ import RevealAnimation from '../RevealAnimation/RevealAnimation'
 
 const PeopleSays = () => {
     return (
-        <div className="mt-[80px] lg:mt-[169px] md:mb-[176px] relative">
+        <div className="mt-[80px] md:mt-[120px] lg:mt-[210px] md:mb-[176px] relative">
             <img className='absolute right-0' src={ear.src} alt="" />
             <div className="container">
                 <RevealAnimation>
@@ -24,7 +24,7 @@ const PeopleSays = () => {
                         <RevealAnimation>
                             <h2 className="text-xl md:text-[30px] xl:text-[40px] mb-[44px] z-10 xl:leading-[50px]">Start your learning yourney <br /> today!</h2>
                         </RevealAnimation>
-                        <div className="text-base text-[#F8F7FC] flex gap-[43px]">
+                        <div className="text-base text-[#F8F7FC] flex gap-5 lg:gap-[43px]">
                                 <button className="bg-gradient-to-r from-[#FD8A5A] to-[#F44C46] px-[30px] py-4 rounded-full z-10 hover:scale-110 transition-all">Get Started</button>
                                 <button className="border px-[30px] py-4 rounded-full z-10 hover:scale-110 transition-all">Contact us</button>
                         </div>
